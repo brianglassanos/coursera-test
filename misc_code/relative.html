@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>NFT Mart</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: rgb(37, 58, 121);
+            font-size: 2.5em;
+            width: 2000;
+            margin: 1em;
+            text-align: center;
+        }
+        h2 {
+            color: rgb(41, 59, 48);
+            font-size: 1.5em;
+            font-style: italic;
+            margin: 1.5em;
+            text-align: center;
+        }
+        .slogan { 
+            color: rgb(35, 138, 222);
+        }
+
+        p {
+            position: absolute;
+            bottom: 10px;
+            top: 10px;
+            text-align: center;
+
+        }
+        .highlight { 
+            background-color: rgb(176, 37, 37);
+            color: white;
+            text-align: center;
+            margin: 3.5em;
+            padding: 3.5em;
+        }
+        .highlight.mainPoint { 
+            background-color: rgb(214, 225, 170);
+            color: rgb(53, 34, 34);
+            text-align: center;
+            margin: 3.5em;
+            padding: 3.5em;
+        }
+        p.highlight {
+            font-style: italic;
+            position: relative;
+            top: 60px;
+        }
+        p.big {
+            font-size: 12px;
+            padding: 1.5em;
+        }
+        article {
+            text-align: center;
+            font-size: 12px;
+        }
+
+        article > p {
+            color: rgb(69, 69, 100);
+            margin: 1.5em;
+            font-size: 12px;
+        }
+        section > article {
+            color: rgb(155, 124, 124);
+            background-color: rgb(213, 144, 144);
+        }
+        section > h2 {
+            color:rgb(34, 181, 139);
+            background-color: blue;
+        }
+        article p {
+            opacity: 0.5;
+        }
+
+        hr {
+            color: red;
+            border-top: 1px solid;
+        }
+        .anim {
+            color: rgb(34, 181, 139);
+            border-bottom: 1px;
+        }
+        
+        #mainPoint {
+            background-color: rgb(255, 255, 255);
+            color:rgb(176, 37, 37);
+            padding: 0.15em;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>NFT Mart</h1>
+<h2 class="slogan" onclick="alert('Thanks for clicking on the slogan.')">1Stop Art Shop</h2>
+
+<hr class="anim">
+
+<h2 class="slogan">Welome</h2>
+
+<p class="highlight big">This should be <span id="mainPoint">highlighted</span>.<br>Welcome to our new website dedicated to community-driven NFT Artwork. <br>All Sales are final!</p>
+
+<article>
+    <p>The site is still undergoing work, please check back in the future for more updates.</p>
+
+    We are so excited for you to check out our latest NFTs!
+
+</article>
+
+<section>
+    <h2>The new Heading</h2> 
+    <article>
+        <p>The site is still undergoing work, please check back in the future for more updates.</p>
+
+        We are so excited for you to check out our latest NFTs!
+
+    </article>
+</section>
+
+<div class="highlight mainPoint">
+    NFT Artwork is the Future.
+</div>
+
+
+<footer>
+<hr>
+<h3 style="text-align: center;" onclick="alert('This email is already in use')">
+Tech Support: polygora3d@gmail.com
+</h3>
+
+</footer>
+
+</body>
+</html>

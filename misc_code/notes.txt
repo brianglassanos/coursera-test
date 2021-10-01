@@ -1,0 +1,10 @@
+origin precedence - last declaration wins, html is sequential - top to bottom.
+
+DOM Tree - Document Object Model
+
+The Box Model
+border
+margin
+padding
+height
+width 

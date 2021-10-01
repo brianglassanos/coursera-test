@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Heading Elements</title>
+    <style>
+        body {
+            color: red;
+            text-align: center;
+            font-family: Helvetica;
+        }
+        p {
+            color: blue;
+            font-size: 120%;
+        }
+        p.blurb {
+            color: rgb(144, 244, 165);
+        }
+        p.style {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #5522ff;
+            font-style: italic;
+            font-size: 24px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    </style>
+    <link rel="stylesheet" href="inheritance.css">
+</head>
+<body>
+    <header>
+
+        <nav>
+            Header Element
+
+        </nav>
+
+    </header>
+    <h1>&lt; -Heading Elements- &gt;</h1>
+
+    <section>
+        Section 1 
+        <article>Article 1</article>
+        <article>Article 2</article>
+        <article>Article 3</article>
+    </section>
+
+    <section>
+        Section 2
+        <article>
+            &quot;For this is what <div style="font-size: 2em; color: navy;">America</div> is all <div style="font-size: .4em;">about</div>: It is the uncrossed desert &amp; the unclimbed ridge. It is the star&nbsp; that is not reached and the harvest that is sleeping in the unplowed ground.&quot;<br>- Lyndon B. Johnson
+        </article>
+
+        <p class="blurb">Hey what up bro.</p>
+        <p class="style">Not too much Dog.</p>
+        
+        <article>Article 5</article>
+        <article>Article 6</article>
+    </section>
+
+    <h1 style="color: green;">Unordered List</h1>
+    <div>
+        <ul>
+            <li>Grains</li>
+            <li>Meats</li>
+            <li>Dairy</li>
+                <ul>
+                    <li>Milk</li>
+                    <li>Cheese</li>
+                    <li>Yogurt</li>
+                </ul>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; Brian Glassanos, 2021
+    </footer>
+
+
+</body>
+</html>
